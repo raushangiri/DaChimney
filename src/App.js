@@ -15,14 +15,12 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Landingpage />} />
+        <Route path="/" element={<Landingpage />} exact/>
         <Route path="/restaurants" element={<Landing />} />
         <Route path="/contactus" element={<Contactus />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
         <Route path="/homedelivery" element={<Homedelivery />} />
-
-
       </Routes>
       <Footer/>
     </Router>
