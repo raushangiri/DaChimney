@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dachimney/static/css/main.745c3282.css",
-    "main.js": "/dachimney/static/js/main.5d561283.js",
+    "main.js": "/dachimney/static/js/main.363f6dcd.js",
     "static/js/453.676511a2.chunk.js": "/dachimney/static/js/453.676511a2.chunk.js",
     "static/media/hero.png": "/dachimney/static/media/hero.fac19e0f2cbb5be17b6c.png",
     "static/media/gallary_1.jpeg": "/dachimney/static/media/gallary_1.142bc52855d1b6ac48d2.jpeg",
@@ -14,6 +14,7 @@
     "static/media/bar.jpeg": "/dachimney/static/media/bar.49697acf6aad60749ab7.jpeg",
     "static/media/loaders.jpeg": "/dachimney/static/media/loaders.616c6f9c30a8b7058ac1.jpeg",
     "static/media/gallary_4.jpeg": "/dachimney/static/media/gallary_4.194b81442bb80b003ade.jpeg",
+    "static/media/landingpage.jpeg": "/dachimney/static/media/landingpage.3c26c950fba9a2136a05.jpeg",
     "static/media/gallary_6.jpeg": "/dachimney/static/media/gallary_6.bf714dfe9cea632db6d0.jpeg",
     "static/media/gallary_8.jpeg": "/dachimney/static/media/gallary_8.3e281014c5e18daa604f.jpeg",
     "static/media/gallary_7.jpeg": "/dachimney/static/media/gallary_7.8c4ecd3187f645a8a869.jpeg",
@@ -42,11 +43,11 @@
     "static/media/icon_3.svg": "/dachimney/static/media/icon_3.5a8bb3c5ca330359d6dfbffd54de31c4.svg",
     "index.html": "/dachimney/index.html",
     "main.745c3282.css.map": "/dachimney/static/css/main.745c3282.css.map",
-    "main.5d561283.js.map": "/dachimney/static/js/main.5d561283.js.map",
+    "main.363f6dcd.js.map": "/dachimney/static/js/main.363f6dcd.js.map",
     "453.676511a2.chunk.js.map": "/dachimney/static/js/453.676511a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.745c3282.css",
-    "static/js/main.5d561283.js"
+    "static/js/main.363f6dcd.js"
   ]
 }
