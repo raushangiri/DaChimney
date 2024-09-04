@@ -17,9 +17,6 @@ import bedroom_2 from '../img/room_2.jpeg';
 import icon_1 from '../img/icon_1.svg'
 import icon_2 from '../img/icon_2.svg'
 import icon_3 from '../img/icon_3.svg'
-import user_1 from '../img/user_1.jpg'
-import user_2 from '../img/user_2.jpg'
-import user_3 from '../img/user_3.jpg'
 
 
 const Landingpage = () => {
@@ -326,7 +323,7 @@ const Landingpage = () => {
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src={user_1} alt=""/></div>
+								<div class="testimonial_image"><img src="images/user_1.jpg" alt=""/></div>
 								<div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
 							</div>
 
@@ -337,7 +334,7 @@ const Landingpage = () => {
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src={user_2} alt=""/></div>
+								<div class="testimonial_image"><img src="images/user_2.jpg" alt=""/></div>
 								<div class="testimonial_author"><a href="#">Michael Doe</a>, Italy</div>
 							</div>
 
@@ -348,7 +345,7 @@ const Landingpage = () => {
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src={user_3} alt=""/></div>
+								<div class="testimonial_image"><img src="images/user_3.jpg" alt=""/></div>
 								<div class="testimonial_author"><a href="#">Luis Garcia</a>, Spain</div>
 							</div>
 

@@ -11,15 +11,9 @@ import gallery_6 from '../img/bar.jpeg';
 import gallery_7 from '../img/bar_1.jpeg';
 import gallery_8 from '../img/bar_2.jpeg';
 import gallery_9 from '../img/bar_3.jpeg';
-import gallery_10 from '../img/pool_1.jpeg';
 import bedroom_1 from '../img/bedroom_1.jpeg';
 import bedroom_2 from '../img/room_2.jpeg';
-import icon_1 from '../img/icon_1.svg'
-import icon_2 from '../img/icon_2.svg'
-import icon_3 from '../img/icon_3.svg'
-import user_1 from '../img/user_1.jpg'
-import user_2 from '../img/user_2.jpg'
-import user_3 from '../img/user_3.jpg'
+import landingimage from '../img/landing_img.jpeg'
 
 
 const Landingpage = () => {
@@ -179,11 +173,10 @@ const Landingpage = () => {
 			
 				<div class="col-lg-4 icon_box_col">
 					<div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="icon_box_icon"><img src={icon_1} class="svg" alt="https://www.flaticon.com/authors/monkik"/></div>
+						<div class="icon_box_icon"><img src="images/icon_1.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"/></div>
 						<div class="icon_box_title"><h2>Fabulous Hotel</h2></div>
 						<div class="icon_box_text">
-							<p>Da Chimney is located in the shining city of Abuja.
-							We serve the finest Indian cuisine in Abuja made from authentic spices by chefs from many countries!</p>
+							<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum.</p>
 						</div>
 					</div>
 				</div>
@@ -191,7 +184,7 @@ const Landingpage = () => {
 				
 				<div class="col-lg-4 icon_box_col">
 					<div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="icon_box_icon"><img src={icon_2} class="svg" alt="https://www.flaticon.com/authors/monkik"/></div>
+						<div class="icon_box_icon"><img src="images/icon_2.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"/></div>
 						<div class="icon_box_title"><h2>Infinity Pool</h2></div>
 						<div class="icon_box_text">
 							<p>Our stunning infinity pool is more than just a place to swim—it's an experience. Seamlessly blending with the horizon, the crystal-clear waters of our infinity pool create a mesmerizing illusion where the sky meets the water.</p>
@@ -202,7 +195,7 @@ const Landingpage = () => {
 				{/* <!-- Icon Box --> */}
 				<div class="col-lg-4 icon_box_col">
 					<div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="icon_box_icon"><img src={icon_3} class="svg" alt="https://www.flaticon.com/authors/monkik"/></div>
+						<div class="icon_box_icon"><img src="images/icon_3.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"/></div>
 						<div class="icon_box_title"><h2>Luxury Rooms</h2></div>
 						<div class="icon_box_text">
 							<p>Whether you’re here for business or leisure, our luxury rooms provide a peaceful haven where you can unwind, recharge, and enjoy the finer things in life. Experience the ultimate in comfort and sophistication with a stay in one of our luxury rooms.</p>
@@ -269,10 +262,6 @@ const Landingpage = () => {
 					<div class="background_image" style={{ backgroundImage:`url(${gallery_9})`}}></div>
 					<a class="colorbox" href={gallery_9}></a>
 				</div>
-				<div class="gallery_item">
-					<div class="background_image" style={{ backgroundImage:`url(${gallery_10})`}}></div>
-					<a class="colorbox" href={gallery_10}></a>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -326,7 +315,7 @@ const Landingpage = () => {
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src={user_1} alt=""/></div>
+								<div class="testimonial_image"><img src="images/user_1.jpg" alt=""/></div>
 								<div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
 							</div>
 
@@ -337,7 +326,7 @@ const Landingpage = () => {
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src={user_2} alt=""/></div>
+								<div class="testimonial_image"><img src="images/user_2.jpg" alt=""/></div>
 								<div class="testimonial_author"><a href="#">Michael Doe</a>, Italy</div>
 							</div>
 
@@ -348,7 +337,7 @@ const Landingpage = () => {
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src={user_3} alt=""/></div>
+								<div class="testimonial_image"><img src="images/user_3.jpg" alt=""/></div>
 								<div class="testimonial_author"><a href="#">Luis Garcia</a>, Spain</div>
 							</div>
 
@@ -367,7 +356,7 @@ const Landingpage = () => {
 				<div class="col">
 					<div class="booking_title text-center"><h2>Book a room</h2></div>
 					<div class="booking_text text-center">
-						<p>At Dachimney, we are more than just a hotel and restaurant; we are a place where comfort meets elegance, and where every guest is treated with the utmost care. Come and experience the difference at Dachimney Restaurant and Hotel in Wuse 2 – your home away from home.</p>
+						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum lacus suscipit sit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum lacus suscipit sit.</p>
 					</div>
 
 				
@@ -392,7 +381,7 @@ const Landingpage = () => {
 
 							
 							<div class="booking_item">
-								<div class="background_image" style={{ backgroundImage: `url(${bedroom_2})` }}></div>
+								<div class="background_image" style={{ backgroundImage: `url(images/booking_3.jpg)` }}></div>
 								<div class="booking_overlay trans_200"></div>
 								<div class="booking_price">$120/Night</div>
 								<div class="booking_link"><a href="booking.html">Single Room</a></div>

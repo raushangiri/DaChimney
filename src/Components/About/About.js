@@ -151,7 +151,7 @@ We serve the finest Indian cuisine in Abuja made from authentic spices by chefs 
 				
 				<div class="col-xl-6 order-xl-1 order-2">
 					<div class="split_section_image">
-						<div class="background_image" style={{backgroundImage:`url(${milestone})`}}></div>
+						<div class="background_image1" style={{backgroundImage:`url(${milestone})`}}></div>
 					</div>
 				</div>
 
