@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dachimney/static/css/main.fc07d19d.css",
-    "main.js": "/dachimney/static/js/main.8032116d.js",
+    "main.css": "/dachimney/static/css/main.745c3282.css",
+    "main.js": "/dachimney/static/js/main.63527c97.js",
     "static/js/453.676511a2.chunk.js": "/dachimney/static/js/453.676511a2.chunk.js",
     "static/media/hero.png": "/dachimney/static/media/hero.fac19e0f2cbb5be17b6c.png",
     "static/media/gallary_1.jpeg": "/dachimney/static/media/gallary_1.142bc52855d1b6ac48d2.jpeg",
@@ -23,6 +23,7 @@
     "static/media/bedroom_1.jpeg": "/dachimney/static/media/bedroom_1.be6c3035f0ef9e794fee.jpeg",
     "static/media/chimanyLogo-removebg-preview.png": "/dachimney/static/media/chimanyLogo-removebg-preview.3f588d920b75eff64c00.png",
     "static/media/landing_page_2.jpeg": "/dachimney/static/media/landing_page_2.6736f0eb1983ea857d9e.jpeg",
+    "static/media/pool_1.jpeg": "/dachimney/static/media/pool_1.f9ec41c1cc1c27acd162.jpeg",
     "static/media/room_2.jpeg": "/dachimney/static/media/room_2.e003dbc5dd47aead0144.jpeg",
     "static/media/galary_11.jpeg": "/dachimney/static/media/galary_11.ba7799c3128a7977ffcb.jpeg",
     "static/media/bar_1.jpeg": "/dachimney/static/media/bar_1.74ebceed8f24b560e98a.jpeg",
@@ -36,13 +37,16 @@
     "static/media/about_5.png": "/dachimney/static/media/about_5.5df1a26f1f2389d88f54.png",
     "static/media/team-1.jpg": "/dachimney/static/media/team-1.92658d94c39d7c348ed6.jpg",
     "static/media/contactus.jpeg": "/dachimney/static/media/contactus.fd0ddf1971b4930a6989.jpeg",
+    "static/media/icon_1.svg": "/dachimney/static/media/icon_1.28415617d4788c1b602e4cf4f6889033.svg",
+    "static/media/icon_2.svg": "/dachimney/static/media/icon_2.895a10d9448d62637e7b84d6a97cb83e.svg",
+    "static/media/icon_3.svg": "/dachimney/static/media/icon_3.5a8bb3c5ca330359d6dfbffd54de31c4.svg",
     "index.html": "/dachimney/index.html",
-    "main.fc07d19d.css.map": "/dachimney/static/css/main.fc07d19d.css.map",
-    "main.8032116d.js.map": "/dachimney/static/js/main.8032116d.js.map",
+    "main.745c3282.css.map": "/dachimney/static/css/main.745c3282.css.map",
+    "main.63527c97.js.map": "/dachimney/static/js/main.63527c97.js.map",
     "453.676511a2.chunk.js.map": "/dachimney/static/js/453.676511a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc07d19d.css",
-    "static/js/main.8032116d.js"
+    "static/css/main.745c3282.css",
+    "static/js/main.63527c97.js"
   ]
 }
