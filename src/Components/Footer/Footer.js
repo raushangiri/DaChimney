@@ -55,7 +55,7 @@ const Footer = () => {
 			</div>
 		</div>
 		<div class="copyright">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="/">DaChimney IT Partner</a>
 </div>
 	</footer>
     </>
