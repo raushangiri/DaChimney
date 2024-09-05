@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
-import hero_image1 from '../img/landing_page_1.jpeg';
+import hero_image1 from '../img/landingpage.jpeg';
 import hero_image2 from '../img/landing_page_2.jpeg';
 import gallery_1 from '../img/gallary_1.jpeg';
 import gallery_2 from '../img/gallary_2.jpeg';
@@ -105,73 +105,111 @@ const Landingpage = () => {
   return (
     <>
     
-    <div className="home">
-      <div className="home_slider_container">
-        <div className="owl-carousel owl-theme home_slider">
-          {sliderData.map((slide) => (
-            <div className="slide" key={slide.id}>
-              <div
-                className="background_image"
-                style={{ backgroundImage: `url(${slide.image})` }}
-              ></div>
-              <div className="home_container">
-                <div className="container">
-                  <div className="row">
-                    <div className="col">
-                      <div className="home_content text-center">
-                        <div className="home_title">{slide.title}</div>
-                        <div className="booking_form_container">
-                          <form action="#" className="booking_form">
-                            <div className="d-flex flex-xl-row flex-column align-items-start justify-content-start">
-                              <div className="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
-                                {slide.inputs.map((input, index) => (
-                                  <div key={index}>
-                                    <input
-                                      type={input.type}
-                                      className={input.className}
-                                      placeholder={input.placeholder}
-                                      required={input.required}
-                                    />
-                                  </div>
-                                ))}
-                              </div>
-                              <div>
-                                <button className="booking_button trans_200">
-                                  {slide.buttonText}
-                                </button>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+	<div class="home">
+		<div class="home_slider_container">
+			<div class="owl-carousel owl-theme home_slider">
+				
+				
+				<div class="slide">
+					<div class="background_image" style={{backgroundImage:`url(${hero_image1})`}}></div>
+					<div class="home_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_content text-center">
+										<div class="home_title">A Luxury Stay</div>
+										<div class="booking_form_container">
+											<form action="#" class="booking_form">
+												<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+													<div class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+														<div><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
+														<div><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
+														<div><input type="number" class="booking_input booking_input_b" placeholder="Children" required="required"/></div>
+														<div><input type="number" class="booking_input booking_input_b" placeholder="Room" required="required"/></div>
+													</div>
+													<div><button class="booking_button trans_200">Book Now</button></div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-        {/* Home Slider Dots */}
-        <div className="home_slider_dots_container">
-          <div className="home_slider_dots">
-            <ul
-              id="home_slider_custom_dots"
-              className="home_slider_custom_dots d-flex flex-row align-items-start justify-content-start"
-            >
-              {sliderData.map((_, index) => (
-                <li
-                  className={`home_slider_custom_dot ${index === 0 ? 'active' : ''}`}
-                  key={index}
-                >
-                  {/* {`0${index + 1}.`} */}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+				<div class="slide">
+					<div class="background_image" style={{backgroundImage:`url(${hero_image2})`}}></div>
+					<div class="home_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_content text-center">
+										<div class="home_title">A Luxury Stay</div>
+										<div class="booking_form_container">
+											<form action="#" class="booking_form">
+												<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+													<div class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+														<div><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
+														<div><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
+														<div><input type="number" class="booking_input booking_input_b" placeholder="Children" required="required"/></div>
+														<div><input type="number" class="booking_input booking_input_b" placeholder="Room" required="required"/></div>
+													</div>
+													<div><button class="booking_button trans_200">Book Now</button></div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			
+				<div class="slide">
+					<div class="background_image" style={{backgroundImage:`url(images/index_1.jpg)`}}></div>
+					<div class="home_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_content text-center">
+										<div class="home_title">A Luxury Stay</div>
+										<div class="booking_form_container">
+											<form action="#" class="booking_form">
+												<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+													<div class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+														<div><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
+														<div><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
+														<div><input type="number" class="booking_input booking_input_b" placeholder="Children" required="required"/></div>
+														<div><input type="number" class="booking_input booking_input_b" placeholder="Room" required="required"/></div>
+													</div>
+													<div><button class="booking_button trans_200">Book Now</button></div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			
+			<div class="home_slider_dots_container">
+				<div class="home_slider_dots">
+					<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-start justify-content-start">
+						<li class="home_slider_custom_dot active">01.</li>
+						<li class="home_slider_custom_dot">02.</li>
+						<li class="home_slider_custom_dot">03.</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
     <div class="features">
 		<div class="container">
 			<div class="row">

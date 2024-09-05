@@ -17,8 +17,8 @@ const Navbar = () => {
           <div className="ml-auto d-flex flex-row align-items-center justify-content-start">
             <nav className="main_nav">
               <ul className="d-flex flex-row align-items-start justify-content-start">
-                <li className="active"><a href="/">Home</a></li>
-                <li><a href="/about">About us</a></li>
+                <li className="active"><Link to="/">Home</Link></li>
+                <li><Link to="/about">About us</Link></li>
                 {/* <li><Link to="/rooms">Rooms</Link></li> */}
                 <li className=" dropdown">
     <a href="#" className=" dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,8 +42,8 @@ const Navbar = () => {
       <li><Link to="/home_delivery" className="dropdown-item">Event Management</Link></li>
     </ul>
   </li>
-                <li><a href="/gallery">Gallery</a></li>
-                <li><a href="/contactus">Contact</a></li>
+                <li><Link to="/gallery">Gallery</Link></li>
+                <li><Link to="/contactus">Contact</Link></li>
               </ul>
             </nav>
             <div className="book_button"><Link to="/booking">Book Online</Link></div>
