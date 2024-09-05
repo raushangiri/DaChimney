@@ -35,9 +35,9 @@ const Footer = () => {
 						<div class="footer_title">Reservations</div>
 						<div class="footer_list">
 							<ul>
-								<li>Tel: 345 5667 889</li>
-								<li>Fax; 6783 4567 889</li>
-								<li>reservations@hotelriver.com</li>
+								<li>Tel: 08050779933</li>
+								
+								<li>reservations@hoteldachimney.com</li>
 							</ul>
 						</div>
 					</div>
