@@ -20,28 +20,33 @@ const Navbar = () => {
                 <li className="active"><Link to="/">Home</Link></li>
                 <li><Link to="/about">About us</Link></li>
                 {/* <li><Link to="/rooms">Rooms</Link></li> */}
-                <li className=" dropdown">
-    <a href="#" className=" dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Bookings
-    </a>
-    <ul className="dropdown-menu" style={{backgroundColor:"transparent", border:"none"}} aria-labelledby="navbarDropdown">
-      <li><Link to="/restaurants" className="dropdown-item">Book Rooms</Link></li>
-      <li><a href="/home_delivery" className="dropdown-item">Book Table</a></li>
-      <li><Link to="/home_delivery" className="dropdown-item">Book Conferece Room</Link></li>
-      <li><Link to="/home_delivery" className="dropdown-item">Book Meeting Room</Link></li>
-    </ul>
-  </li>
-                <li className=" dropdown">
-    <a href="#" className=" dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Service
-    </a>
-    <ul className="dropdown-menu" style={{backgroundColor:"transparent", border:"none"}} aria-labelledby="navbarDropdown">
-      <li><Link to="/restaurants" className="dropdown-item">Restaurants</Link></li>
-      <li><a href="/homedelivery" className="dropdown-item">Home Delivery</a></li>
-      <li><Link to="/home_delivery" className="dropdown-item">Catering Service</Link></li>
-      <li><Link to="/home_delivery" className="dropdown-item">Event Management</Link></li>
-    </ul>
-  </li>
+                <li className="nav-item dropdown">
+                  <a href="#"
+                    className="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Bookings
+                  </a>
+                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><Link to="/restaurants" className="dropdown-item">Book Rooms</Link></li>
+                    <li><Link to="/book_table" className="dropdown-item">Book Table</Link></li>
+                    <li><Link to="/conference_room" className="dropdown-item">Book Conference Room</Link></li>
+                    <li><Link to="/meeting_room" className="dropdown-item">Book Meeting Room</Link></li>
+                  </ul>
+                </li>
+                {/* <li className=" dropdown">
+                  <a href="#" className=" dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                  </a>
+                  <ul className="dropdown-menu" style={{ backgroundColor: "transparent", border: "none" }} aria-labelledby="navbarDropdown">
+                    <li><Link to="/restaurants" className="dropdown-item">Restaurants</Link></li>
+                    <li><a href="/homedelivery" className="dropdown-item">Home Delivery</a></li>
+                    <li><Link to="/home_delivery" className="dropdown-item">Catering Service</Link></li>
+                    <li><Link to="/home_delivery" className="dropdown-item">Event Management</Link></li>
+                  </ul>
+                </li> */}
                 <li><Link to="/gallery">Gallery</Link></li>
                 <li><Link to="/contactus">Contact</Link></li>
               </ul>
@@ -62,20 +67,20 @@ const Navbar = () => {
         <div className="menu_content">
           <nav className="menu_nav text-right">
             <ul>
-            <li className="active"><a href="/">Home</a></li>
-                <li><Link to="/about">About us</Link></li>
-                <li><Link to="/rooms">Rooms</Link></li>
-                <li><a href="/gallery">Gallery</a></li>
-                <li className="nav-item dropdown">
-    <a href="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Service
-    </a>
-    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-      <li><Link to="/restaurants" className="dropdown-item">Restaurants</Link></li>
-      <li><Link to="/home_delivery" className="dropdown-item">Home delivery</Link></li>
-    </ul>
-  </li>
-                <li><a href="/contactus">Contact</a></li>
+              <li className="active"><a href="/">Home</a></li>
+              <li><Link to="/about">About us</Link></li>
+              <li><Link to="/rooms">Rooms</Link></li>
+              <li><a href="/gallery">Gallery</a></li>
+              <li className="nav-item dropdown">
+                <a href="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><Link to="/restaurants" className="dropdown-item">Restaurants</Link></li>
+                  <li><Link to="/home_delivery" className="dropdown-item">Home delivery</Link></li>
+                </ul>
+              </li>
+              <li><a href="/contactus">Contact</a></li>
             </ul>
           </nav>
         </div>
