@@ -20,7 +20,7 @@ import icon_3 from '../img/icon_3.svg'
 import user_1 from '../img/user_1.jpg'
 import user_2 from '../img/user_2.jpg'
 import user_3 from '../img/user_3.jpg'
-
+import testimonials from '../img/testimonials.jpg'
 
 const Landingpage = () => {
  
@@ -345,20 +345,15 @@ const Landingpage = () => {
 
 	
 
-	<div class="testimonials">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/testimonials.jpg" data-speed="0.8"></div>
+	<div class="testimonials" style={{backgroundImage:`url(${hero_image1})`,backgroundRepeat:"revert-layer"}}>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src={testimonials} data-speed="0.8"></div>
 		<div class="testimonials_overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="testimonials_slider_container">
-
-						
 						<div class="owl-carousel owl-theme test_slider">
-							
-						
 							<div  class="test_slider_item text-center">
-							
 								<div class="rating rating_5 d-flex flex-row align-items-start justify-content-center"><i></i><i></i><i></i><i></i><i></i></div>
 								<div class="testimonial_title"><a href="#">Perfect Stay</a></div>
 								<div class="testimonial_text">
