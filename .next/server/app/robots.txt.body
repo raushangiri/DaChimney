@@ -1,6 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /admin
-Disallow: /booking/confirmation
-
-Sitemap: https://dachimney.netlify.app/sitemap.xml
