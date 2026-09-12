@@ -1,1 +1,9 @@
-/*    /index.html   200
+# Legacy redirects from the previous website
+/restaurants   /restaurant   301
+/restaurant/   /restaurant   302
+/contactus     /contact      301
+/contactus/    /contact      302
+/homedelivery  /restaurant   301
+
+# Next.js App Router routes are handled by the Next.js runtime
+/*   /.netlify/functions/___next___/app/*   200
