@@ -8,19 +8,24 @@ import { site, formatNaira } from "@/lib/site";
 import { getRoom } from "@/data/rooms";
 import { getBooking, type BookingRequest } from "@/lib/booking";
 
-export default function ConfirmationPage({ params }: { params: Promise<{ ref: string }> }) {
+export default function ConfirmationPage() {
   const [booking, setBooking] = useState<BookingRequest | null>(null);
   const [ref, setRef] = useState<string | null>(null);
   const [found, setFound] = useState<boolean | null>(null);
 
   useEffect(() => {
-    params.then(({ ref: r }) => {
-      setRef(r);
-      const b = getBooking(r);
-      setBooking(b ?? null);
-      setFound(!!b);
-    });
-  }, [params]);
+    const r = new URLSearchParams(window.location.search).get("ref") ?? "";
+    setRef(r);
+    let b = r ? getBooking(r) : null;
+    if (!b) {
+      try {
+        const last = sessionStorage.getItem("den_last_booking");
+        if (last) b = JSON.parse(last) as BookingRequest;
+      } catch { /* ignore */ }
+    }
+    setBooking(b ?? null);
+    setFound(!!b);
+  }, []);
 
   if (found === false) {
     return (

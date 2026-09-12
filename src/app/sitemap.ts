@@ -6,6 +6,8 @@ import { venues } from "@/data/venues";
 import { posts } from "@/data/blog";
 import { locations } from "@/data/locations";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.domain;
 

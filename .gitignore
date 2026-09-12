@@ -14,6 +14,9 @@
 # next.js build output
 /.next/
 
+# next export output
+/out/
+
 # typescript incremental build info
 *.tsbuildinfo
 *.tsbuildinfo.*

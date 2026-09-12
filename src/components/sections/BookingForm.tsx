@@ -112,7 +112,7 @@ export function BookingForm() {
       `Room Booking Request ${reference}`
     )}&body=${encodeURIComponent(lines)}`;
 
-    router.push(`/booking/confirmation/${reference}`);
+    router.push(`/booking/confirmation?ref=${reference}`);
   };
 
   return (

@@ -3,7 +3,12 @@
   # @tailwindcss/oxide native binding is installed (npm bug #4828 otherwise
   # skips the Linux binary when the lockfile was generated on Windows).
   command = "rm -rf node_modules package-lock.json && npm install && npm run build"
-  publish = ".next"
+  publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-DNS-Prefetch-Control = "on"
